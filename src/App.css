@@ -67,6 +67,7 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+  overflow: hidden;
 }
 
 .homepage button {
@@ -103,6 +104,7 @@
   position: relative;
   text-align: center;
   color: white;
+  overflow: hidden;
 }
 
 .box {
@@ -125,6 +127,7 @@
   background-color: white;
   padding-top: 100px;
   text-align: center;
+  overflow: hidden;
 }
 
 .custom-timeline-element:before {
@@ -146,7 +149,9 @@
   background-repeat: no-repeat;
   align-items: center;
   padding-bottom: 100px;
+  overflow: hidden;
 }
+
 
 .gfg {
   margin: 3%;
