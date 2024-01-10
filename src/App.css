@@ -435,6 +435,7 @@ button {
   left: 52.5%;
   width: 600px;
   height: 680px;
+  overflow: hidden;
 }
 
 .logo {
