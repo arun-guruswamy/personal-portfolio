@@ -1,0 +1,43 @@
+<div className="flex-container">
+        {/* <div className="flex-date"><img src={require("../images/Adaptive_time.png")} alt="Adaptive_time"/></div> */}
+        <div id="SWE" className="flex-descr"><h2>Software Engineer Intern • Adaptive Biotechnologies </h2>
+              {/* Backend software engineer with a focus on automation, primarily working with Bazel, Python, Java, and Azure.  */}
+              Built an AI-powered python application using Langchain and fine-tuned Large Language Models to expedite the process of configuring a new information management system. {/* by 67 percent. 
+              Collaborated with a team in an Agile scrum environment to automate computational biology pipelines and reduce computational cost by over 50 percent. */}
+              <div className="skill-container">
+                {adaptive.map((word, index) => (
+                  <div key={index} className="skill">
+                    {word}
+                  </div> 
+                ))}
+              </div>
+        </div>
+      </div>
+<div><br /></div>
+      <div className="flex-container">
+        {/* <div className="flex-date"><img src={require("../images/TA_time.png")} alt="TA_time"/></div> */}
+        <div id="TA" className="flex-descr"> <h2>Software Design Teaching Assitant • Dartmouth College</h2>
+                                    Facilitated in teaching a software class focused on building large-scale, reliable, and maintainable software systems
+                                    {/* Provided personalized assistance to over 60 students in Unix command line, C programming, pointers, memory management, and core Unix development tools */} 
+                                    <div className="skill-container">
+                                      {dartmouth.map((word, index) => (
+                                          <div key={index} className="skill">
+                                            {word}
+                                          </div>
+                                        ))}
+                                      </div>
+        </div> 
+      </div>
+      <div className="flex-container">
+        {/* <div className="flex-date"><img src={require("../images/Research_time.png")} alt="Research_time"/></div> */}
+        <div id="CB" className="flex-descr"><h2>TECBio Research Intern • National Science Foundation </h2>
+                                    Identified a set of molecules that could bind effectively to a SARS-CoV-2 protein to help accelerate the discovery of a Coronavirus antibody effective across mutations.
+                                    <div className="skill-container">
+                                    {pittsburgh.map((word, index) => (
+                                          <div key={index} className="skill">
+                                            {word}
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </div>
+      </div>
