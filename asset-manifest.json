@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/arun-guruswamy.github.io/static/css/main.2aba236b.css",
+    "main.js": "/arun-guruswamy.github.io/static/js/main.fdba7714.js",
+    "static/js/787.a5fa54f9.chunk.js": "/arun-guruswamy.github.io/static/js/787.a5fa54f9.chunk.js",
+    "static/media/v15.png": "/arun-guruswamy.github.io/static/media/v15.3214a805d5b93ffa3adc.png",
+    "static/media/solar_sim_bw.png": "/arun-guruswamy.github.io/static/media/solar_sim_bw.17b1912139349339fb6e.png",
+    "static/media/nsf.png": "/arun-guruswamy.github.io/static/media/nsf.93089fc4b26e324a21a3.png",
+    "static/media/Inter-Medium.ttf": "/arun-guruswamy.github.io/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/cropped_v5.png": "/arun-guruswamy.github.io/static/media/cropped_v5.80278217d9e4c9ba5514.png",
+    "static/media/tse_bw.png": "/arun-guruswamy.github.io/static/media/tse_bw.bca8111739cc6424796a.png",
+    "static/media/social_workout_bw.png": "/arun-guruswamy.github.io/static/media/social_workout_bw.3fbdc8e6f79c86a37f61.png",
+    "static/media/vc.png": "/arun-guruswamy.github.io/static/media/vc.967c8dd5c87164345757.png",
+    "static/media/vga_bw.png": "/arun-guruswamy.github.io/static/media/vga_bw.2dcb54b363e9d8506b24.png",
+    "static/media/dartmouth.png": "/arun-guruswamy.github.io/static/media/dartmouth.d95a0d09d2cc658d78e6.png",
+    "static/media/game_bw.png": "/arun-guruswamy.github.io/static/media/game_bw.bbb4f02ee8a2d004f425.png",
+    "static/media/trader_bw.png": "/arun-guruswamy.github.io/static/media/trader_bw.1429b8b346a03ce9cdb6.png",
+    "static/media/adapt.png": "/arun-guruswamy.github.io/static/media/adapt.2d36d870bb5ec69168ff.png",
+    "static/media/Equinox Bold.otf": "/arun-guruswamy.github.io/static/media/Equinox Bold.122e1ab35d5b619bacf7.otf",
+    "static/media/Stargaze Regular.otf": "/arun-guruswamy.github.io/static/media/Stargaze Regular.8bb4883234490d76dcbd.otf",
+    "index.html": "/arun-guruswamy.github.io/index.html",
+    "main.2aba236b.css.map": "/arun-guruswamy.github.io/static/css/main.2aba236b.css.map",
+    "main.fdba7714.js.map": "/arun-guruswamy.github.io/static/js/main.fdba7714.js.map",
+    "787.a5fa54f9.chunk.js.map": "/arun-guruswamy.github.io/static/js/787.a5fa54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aba236b.css",
+    "static/js/main.fdba7714.js"
+  ]
+}
