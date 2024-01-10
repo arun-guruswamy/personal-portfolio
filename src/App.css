@@ -120,6 +120,13 @@
   color: black;
 }
 
+@media (max-width: 1000px) {
+  .box {
+  height: 250px;
+  width: 500px;
+  }
+}
+
 .exppage { 
   position: relative;
   color: black; 
@@ -152,7 +159,6 @@
   overflow: hidden;
 }
 
-
 .gfg {
   margin: 3%;
   position: relative;
@@ -180,6 +186,24 @@
   right: 30px;
   font-size: 20px;
   font-style: 'Equinox';
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .top-right {
+    font-size: 14px; /* Slightly smaller font size for tablets */
+    right: 20px; /* Adjust position for smaller screens */
+    /* Other tablet-specific styles if needed */
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .top-right {
+    font-size: 10px; /* Even smaller font size for mobiles */
+    right: 10px; /* Adjust position for very small screens */
+    /* Other mobile-specific styles if needed */
+  }
 }
 
 /* Bottom right text */
@@ -214,8 +238,8 @@ p {
   font-size: 50px;
   font-family: Inter;
   color: white;
-  top: 0%;
-  left: 42%;
+  /* top: 0%;
+  left: 42%; */
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -223,18 +247,39 @@ p {
   padding: 8px;
 }
 
+@media (max-width: 700px) {
+  .projectpage h1 {
+    font-size: 30px;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  .test {
+    font-size: 30px;
+  }
+}
+
 .aboutpage h1 {
-  position: absolute;
   font-size: 50px;
   font-family: Inter;
   color: white;
   /* top: 10%; */
-  left: 42%;
+  /* left: 42%; */
   text-align: center;
   /* padding-top: 100px; */
   margin-top: 0;
   border: 4px solid white;
   padding: 8px;
+  display: inline-block; /* Makes the div only as wide as its content */
+
+}
+
+@media (max-width: 700px) {
+  .aboutpage h1 {
+    font-size: 30px;
+  }
 }
 
 .exppage h2 {
@@ -288,7 +333,7 @@ p {
   /* background-color: #8A96A9; */
   /* scrollbar-width: thin; /* "auto" or "thin" based on your preference */
   /* scrollbar-color: transparent transparent; /* Adjust the colors as needed */
-} 
+}
 
 button {
   margin-top: 10px;
@@ -330,41 +375,113 @@ button {
   transform: rotate(-90deg);
 }
 
+.homeText {
+  text-align: left;
+  position: absolute;
+  left: 31%;
+  top: 35%;
+
+}
+
+@media (max-width: 480px) {
+.homeText {
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  width: 400px;
+  }
+}
+
 /* Centered text */
 .centered {
-  position: absolute;
+  /* position: absolute;
   top: 35%;
-  left: 65%;
+  left: 23.5%; */
   font-size: 60px;
   font-family: Inter;
   font-weight: 20;
   color: white;
   transform: translate(-50%, -50%);
-  width: 100vw;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .centered {
+    font-size: 40px; /* Smaller font size for tablets */
+    left: 50%; /* Adjust positioning if needed */
+    /* Other tablet-specific adjustments */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .centered {
+    font-size: 30px; /* Even smaller font size for mobile */
+    left: 50%; /* Adjust positioning if needed */
+    /* Other mobile-specific adjustments */
+  }
 }
 
 .name {
-  position: absolute;
+  /* position: absolute;
   top: 47.5%;
-  left: 65%;
+  left: 31%; */
   font-size: 60px;
   font-family: Inter;
   font-weight: bold;
   color: white;
   transform: translate(-50%, -50%);
-  width: 100vw;
+  padding-bottom: 7px;
+  padding-top: 3px;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .name {
+    font-size: 40px; /* Smaller font size for tablets */
+    left: 50%; /* Adjust positioning if needed */
+    /* Other tablet-specific adjustments */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .name {
+    font-size: 30px; /* Even smaller font size for mobile */
+    left: 50%; /* Adjust positioning if needed */
+    /* Other mobile-specific adjustments */
+  }
 }
 
 .belowCenter {
-  position: absolute;
+  /* position: absolute;
   top: 60%;
-  left: 31%;
+  left: 31%; */
   font-size: 32px;
   font-family: Inter;
   color: lightgray;
   transform: translate(-50%, -50%);
   border-style: solid;
   padding: 10px;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .belowCenter {
+    font-size: 24px; /* Smaller font size for tablets */
+    left: 50%; /* Adjust positioning if needed */
+    /* Other tablet-specific adjustments */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .belowCenter {
+    font-size: 20px; /* Even smaller font size for mobile */
+    left: 50%; /* Adjust positioning if needed */
+    /* Other mobile-specific adjustments */
+  }
 }
 
 .centered2 {
@@ -439,8 +556,26 @@ button {
   top: 0%;
   left: 52.5%;
   width: 600px;
-  height: 680px;
-  overflow: hidden;
+  height: auto;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .me {
+    width: 50%; /* Adjust width for tablet screens */
+    top: 15%;
+    /* Optionally adjust the position if needed */
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .me {
+    width: 100%; /* Adjust width for mobile screens */
+    top: 50%;
+    left: 0%;
+    /* Optionally adjust the position if needed */
+  }
 }
 
 .logo {
@@ -463,12 +598,35 @@ button {
 }
 
 .image-row img {
-  width: 400px; /* Adjust the width as needed */
-  height: 300px; /* Maintain aspect ratio */
   /* margin: 0 0px; Space between images */
+  width: 400px; /* Adjust the width as needed */
+  height: 300px;
   margin: 0;
   align-items: center;
+  /* object-fit: cover; */
 }
+
+@media (max-width: 1200px) {
+.image-row img {
+  /* margin: 0 0px; Space between images */
+  width: 200px; /* Adjust the width as needed */
+  height: 150px;
+  margin: 0;
+  align-items: center;
+  /* object-fit: cover; */
+}
+}
+
+@media (max-width: 680px) {
+  .image-row img {
+    /* margin: 0 0px; Space between images */
+    width: 130px; /* Adjust the width as needed */
+    height: 97.5px;
+    margin: 0;
+    align-items: center;
+    /* object-fit: cover; */
+  }
+  }
 
 .belowArrow {
   position: absolute;
