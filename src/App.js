@@ -33,9 +33,11 @@ function App() {
                                     <button onClick={projectClick}>PROJECTS</button>&nbsp;&nbsp;|&nbsp;&nbsp;    
                                     <button onClick={aboutClick}>ABOUT</button>
          </div>
-        <div className="centered">Hello, I'm</div>
-        <div className="name"><Typewriter text="Arun Guruswamy" delay={100}/></div>
-        <div className="belowCenter">Software + Computer Engineer</div>
+        <div className="homeText">
+          <div className="centered">Hello, I'm</div>
+          <div className="name"><Typewriter text="Arun Guruswamy" delay={100}/></div>
+          <div className="belowCenter">Software + Computer Engineer</div>
+        </div>
         <img className="me" src={require("./images/cropped_v5.png")} alt="Me"/>
         {/* <button className="navButton" onClick={expClick}><div className="belowArrow"></div></button> */}
       </div>
