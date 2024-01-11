@@ -4,12 +4,12 @@ import '../App.css';
 export default function ProjectPage() {
   
   const imageData = [
-    { imgSrc: require('../images/game_bw.png'), linkUrl: '/page1', imgTitle: "Multiplayer Maze game", imgDescr: "An online multiplayer maze game that allows up to 50 players to join and race to collect the most gold." },
-    { imgSrc: require('../images/vga_bw.png'), linkUrl: '/page2', imgTitle: "Morse-Code VGA Game", imgDescr: "FPGA designed game that tests Morse Code inputs of characters displayed on the VGA"},
-    { imgSrc: require('../images/solar_sim_bw.png'), linkUrl: '/page3', imgTitle: "2D Solar System simlution",  imgDescr: "Simulation of Solar System built using Pygame and fundamental Newtonian equations"},
-    { imgSrc: require('../images/social_workout_bw.png'), linkUrl: '/page4', imgTitle: "Social Media for Workouts", imgDescr: "Android app built to serve as a hub for sharing workouts and interacting with the fitness community."},
-    { imgSrc: require('../images/tse_bw.png'), linkUrl: '/page5', imgTitle: "Tiny Search Engine", imgDescr: "Search engine written in C that mimics the design of Google's inital search engine"},
-    { imgSrc: require('../images/trader_bw.png'), linkUrl: '/page6', imgTitle: "Trading Simulator", imgDescr: "Python Stock trading simulator built using Flask and data from the IEX API"}
+    { imgSrc: require('../images/game.png'), linkUrl: '/page1', imgTitle: "Multiplayer Maze game", imgDescr: "An online multiplayer maze game that allows up to 50 players to join and race to collect the most gold." },
+    { imgSrc: require('../images/vga.png'), linkUrl: '/page2', imgTitle: "Morse-Code VGA Game", imgDescr: "FPGA designed game that tests Morse Code inputs of characters displayed on the VGA"},
+    { imgSrc: require('../images/solar_sim.png'), linkUrl: '/page3', imgTitle: "2D Solar System simlution",  imgDescr: "Simulation of Solar System built using Pygame and fundamental Newtonian equations"},
+    { imgSrc: require('../images/social_workout.png'), linkUrl: '/page4', imgTitle: "Social Media for Workouts", imgDescr: "Android app built to serve as a hub for sharing workouts and interacting with the fitness community."},
+    { imgSrc: require('../images/tse.png'), linkUrl: '/page5', imgTitle: "Tiny Search Engine", imgDescr: "Search engine written in C that mimics the design of Google's inital search engine"},
+    { imgSrc: require('../images/trader.png'), linkUrl: '/page6', imgTitle: "Trading Simulator", imgDescr: "Python Stock trading simulator built using Flask and data from the IEX API"}
   ]; 
 
   // Split the imageData into rows of 3 images each

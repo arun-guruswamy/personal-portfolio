@@ -271,9 +271,9 @@ p {
   text-align: center;
   /* padding-top: 100px; */
   margin-top: 50px;
-  border: 4px solid white;
+  /* border: 4px solid white; */
   padding: 8px;
-  display: inline-block; /* Makes the div only as wide as its content */
+  /* display: inline-block; Makes the div only as wide as its content */
 
 }
 

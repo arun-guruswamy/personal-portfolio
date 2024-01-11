@@ -18,8 +18,7 @@ export default function AboutPage() {
   <div className="AboutText"> 
     Currently I am a senior at Vassar College aiming to complete my BA in Computer Science. 
     I am a skilled programmer comfortable with various technologies. I am driven by my
-    enthusiasm for innovation and love to learn cutting edge technologies. When I'm not at the
-    computer, you can find me competing in tennis, climbing the ranks of brawlhalla or consuming
+    enthusiasm for innovation and love to learn cutting edge technologies. When I'm not coding, you can find me competing in tennis, trying new video games or consuming
     all things space related. 
     </div>
     <a href="https://github.com/arun-guruswamy">
