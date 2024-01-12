@@ -552,11 +552,19 @@ button {
   left: 89%
 }
 
-.me {
+/* .me {
   position: absolute;
   top: 0%;
   left: 52.5%;
   width: 600px;
+  height: auto;
+} */
+
+.me {
+  position: absolute;
+  top: -10%;
+  left: 35.5%;
+  width: 1200px;
   height: auto;
 }
 
