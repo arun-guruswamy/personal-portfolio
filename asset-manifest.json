@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.a7706f5d.css",
-    "main.js": "/personal-portfolio/static/js/main.13a70734.js",
+    "main.js": "/personal-portfolio/static/js/main.2a3aec73.js",
     "static/js/787.a5fa54f9.chunk.js": "/personal-portfolio/static/js/787.a5fa54f9.chunk.js",
     "static/media/v15.png": "/personal-portfolio/static/media/v15.3214a805d5b93ffa3adc.png",
     "static/media/solar_sim.png": "/personal-portfolio/static/media/solar_sim.4524bd64e7cb6e17b5d4.png",
@@ -9,7 +9,7 @@
     "static/media/Inter-Medium.ttf": "/personal-portfolio/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
     "static/media/tse.png": "/personal-portfolio/static/media/tse.90d4af53631b174022e6.png",
     "static/media/social_workout.png": "/personal-portfolio/static/media/social_workout.c986ab751a1f12f0352e.png",
-    "static/media/cropped_v5.png": "/personal-portfolio/static/media/cropped_v5.80278217d9e4c9ba5514.png",
+    "static/media/v18.png": "/personal-portfolio/static/media/v18.1d391cb2e5c38b3ab5ce.png",
     "static/media/game.png": "/personal-portfolio/static/media/game.24916c0a1f6431baae17.png",
     "static/media/vc.png": "/personal-portfolio/static/media/vc.967c8dd5c87164345757.png",
     "static/media/dartmouth.png": "/personal-portfolio/static/media/dartmouth.0feb12750edff12e9aa1.png",
@@ -20,11 +20,11 @@
     "static/media/Stargaze Regular.otf": "/personal-portfolio/static/media/Stargaze Regular.8bb4883234490d76dcbd.otf",
     "index.html": "/personal-portfolio/index.html",
     "main.a7706f5d.css.map": "/personal-portfolio/static/css/main.a7706f5d.css.map",
-    "main.13a70734.js.map": "/personal-portfolio/static/js/main.13a70734.js.map",
+    "main.2a3aec73.js.map": "/personal-portfolio/static/js/main.2a3aec73.js.map",
     "787.a5fa54f9.chunk.js.map": "/personal-portfolio/static/js/787.a5fa54f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7706f5d.css",
-    "static/js/main.13a70734.js"
+    "static/js/main.2a3aec73.js"
   ]
 }
