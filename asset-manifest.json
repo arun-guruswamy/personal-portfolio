@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.2a931553.css",
-    "main.js": "/personal-portfolio/static/js/main.1b17a63f.js",
+    "main.css": "/personal-portfolio/static/css/main.a7706f5d.css",
+    "main.js": "/personal-portfolio/static/js/main.13a70734.js",
     "static/js/787.a5fa54f9.chunk.js": "/personal-portfolio/static/js/787.a5fa54f9.chunk.js",
     "static/media/v15.png": "/personal-portfolio/static/media/v15.3214a805d5b93ffa3adc.png",
     "static/media/solar_sim.png": "/personal-portfolio/static/media/solar_sim.4524bd64e7cb6e17b5d4.png",
@@ -12,19 +12,19 @@
     "static/media/cropped_v5.png": "/personal-portfolio/static/media/cropped_v5.80278217d9e4c9ba5514.png",
     "static/media/game.png": "/personal-portfolio/static/media/game.24916c0a1f6431baae17.png",
     "static/media/vc.png": "/personal-portfolio/static/media/vc.967c8dd5c87164345757.png",
-    "static/media/dartmouth.png": "/personal-portfolio/static/media/dartmouth.d95a0d09d2cc658d78e6.png",
+    "static/media/dartmouth.png": "/personal-portfolio/static/media/dartmouth.0feb12750edff12e9aa1.png",
     "static/media/trader.png": "/personal-portfolio/static/media/trader.6059ffbb1b1f97903668.png",
     "static/media/adapt.png": "/personal-portfolio/static/media/adapt.2d36d870bb5ec69168ff.png",
     "static/media/Equinox Bold.otf": "/personal-portfolio/static/media/Equinox Bold.122e1ab35d5b619bacf7.otf",
     "static/media/vga.jpg": "/personal-portfolio/static/media/vga.eb289d1f97bbd8ef64b3.jpg",
     "static/media/Stargaze Regular.otf": "/personal-portfolio/static/media/Stargaze Regular.8bb4883234490d76dcbd.otf",
     "index.html": "/personal-portfolio/index.html",
-    "main.2a931553.css.map": "/personal-portfolio/static/css/main.2a931553.css.map",
-    "main.1b17a63f.js.map": "/personal-portfolio/static/js/main.1b17a63f.js.map",
+    "main.a7706f5d.css.map": "/personal-portfolio/static/css/main.a7706f5d.css.map",
+    "main.13a70734.js.map": "/personal-portfolio/static/js/main.13a70734.js.map",
     "787.a5fa54f9.chunk.js.map": "/personal-portfolio/static/js/787.a5fa54f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a931553.css",
-    "static/js/main.1b17a63f.js"
+    "static/css/main.a7706f5d.css",
+    "static/js/main.13a70734.js"
   ]
 }
