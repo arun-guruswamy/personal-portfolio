@@ -38,7 +38,7 @@ function App() {
           <div className="name"><Typewriter text="Arun Guruswamy" delay={100}/></div>
           <div className="belowCenter">Software + Computer Engineer</div>
         </div>
-        <img className="me" src={require("./images/cropped_v5.png")} alt="Me"/>
+        <img className="me" src={require("./images/v18.png")} alt="Me"/>
         {/* <button className="navButton" onClick={expClick}><div className="belowArrow"></div></button> */}
       </div>
 
