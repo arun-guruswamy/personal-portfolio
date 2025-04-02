@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.a7706f5d.css",
-    "main.js": "/personal-portfolio/static/js/main.2a3aec73.js",
-    "static/js/787.a5fa54f9.chunk.js": "/personal-portfolio/static/js/787.a5fa54f9.chunk.js",
+    "main.css": "/personal-portfolio/static/css/main.ad00b8a2.css",
+    "main.js": "/personal-portfolio/static/js/main.f57e120a.js",
+    "static/js/453.209d4f9d.chunk.js": "/personal-portfolio/static/js/453.209d4f9d.chunk.js",
     "static/media/v15.png": "/personal-portfolio/static/media/v15.3214a805d5b93ffa3adc.png",
     "static/media/solar_sim.png": "/personal-portfolio/static/media/solar_sim.4524bd64e7cb6e17b5d4.png",
     "static/media/nsf.png": "/personal-portfolio/static/media/nsf.93089fc4b26e324a21a3.png",
@@ -19,12 +19,12 @@
     "static/media/vga.jpg": "/personal-portfolio/static/media/vga.eb289d1f97bbd8ef64b3.jpg",
     "static/media/Stargaze Regular.otf": "/personal-portfolio/static/media/Stargaze Regular.8bb4883234490d76dcbd.otf",
     "index.html": "/personal-portfolio/index.html",
-    "main.a7706f5d.css.map": "/personal-portfolio/static/css/main.a7706f5d.css.map",
-    "main.2a3aec73.js.map": "/personal-portfolio/static/js/main.2a3aec73.js.map",
-    "787.a5fa54f9.chunk.js.map": "/personal-portfolio/static/js/787.a5fa54f9.chunk.js.map"
+    "main.ad00b8a2.css.map": "/personal-portfolio/static/css/main.ad00b8a2.css.map",
+    "main.f57e120a.js.map": "/personal-portfolio/static/js/main.f57e120a.js.map",
+    "453.209d4f9d.chunk.js.map": "/personal-portfolio/static/js/453.209d4f9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7706f5d.css",
-    "static/js/main.2a3aec73.js"
+    "static/css/main.ad00b8a2.css",
+    "static/js/main.f57e120a.js"
   ]
 }
