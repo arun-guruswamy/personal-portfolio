@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks if a redirect is required and performs it if needed.
+      // It does this by storing the intended path in sessionStorage and redirecting
+      // to the root index.html page.
+
+      // Get the pathname part of the URL (e.g., "/personal-portfolio/word-vault-privacy")
+      var path = window.location.pathname;
+
+      // Get the configured basename (e.g., "/personal-portfolio")
+      // Assumes your Router basename is the first segment after the domain.
+      // Adjust this logic if your basename structure is different.
+      var basename = '/' + path.split('/')[1];
+
+      // Calculate the path segment relative to the basename (e.g., "/word-vault-privacy")
+      var pathSegment = path.replace(basename, '');
+
+      // Store the intended path, including the query string, in sessionStorage
+      sessionStorage.redirect = pathSegment + window.location.search + window.location.hash;
+
+      // Redirect to the root of the deployment (e.g., "/personal-portfolio/")
+      // Note: Using %PUBLIC_URL% might not work reliably here as it's processed during build.
+      // We construct the redirect URL based on the detected basename.
+      window.location.replace(basename + '/');
+
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
