@@ -876,6 +876,118 @@ button {
   color: #f4f3f2;
 }
 
+/* Privacy Policy Page Styles */
+.privacy-policy {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.privacy-policy h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+
+.privacy-policy h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #61dafb;
+}
+
+.privacy-policy p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.privacy-policy ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.privacy-policy li {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.privacy-policy a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.privacy-policy a:hover {
+  text-decoration: underline;
+}
+
+.policy-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.effective-date {
+  font-style: italic;
+  text-align: right;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #aaa;
+}
+
+.back-link {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.back-link a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.back-link a:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .privacy-policy {
+    padding: 20px;
+  }
+  
+  .privacy-policy h1 {
+    font-size: 32px;
+  }
+  
+  .privacy-policy h2 {
+    font-size: 24px;
+  }
+  
+  .privacy-policy p, 
+  .privacy-policy li {
+    font-size: 16px;
+  }
+  
+  .policy-content {
+    padding: 20px;
+  }
+}
+
 .me_img {
   position: absolute;
   top: 0%;
@@ -914,9 +1026,3 @@ button {
   width: 100px;
   height: 100px;
 }
-
-
-
-
-
-

@@ -5,17 +5,17 @@ import About from './components/about';
 import Home from './components/home';
 import Experience from './components/experience';
 import Projects from './components/projects';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import WordVaultPrivacy from './components/wordVaultPrivacy';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Typewriter from "./components/typewriter";
 
-function App() {
-
+function MainPage() {
   const expRef = useRef(null);
   const projectsRef = useRef(null);
   const aboutRef = useRef(null);
 
   const expClick = () => {
-  expRef.current?.scrollIntoView({behavior: 'smooth'});
+    expRef.current?.scrollIntoView({behavior: 'smooth'});
   };
 
   const projectClick = () => {
@@ -26,7 +26,7 @@ function App() {
     aboutRef.current?.scrollIntoView({behavior: 'smooth'});
   };
 
-  return(
+  return (
     <div>
       <div className="homepage">
          <div className="top-right"><button onClick={expClick}>EXPERIENCE</button>&nbsp;&nbsp;|&nbsp;&nbsp;         
@@ -54,7 +54,18 @@ function App() {
       <About/>
       </div>
     </div>
-    )
+  );
+}
+
+function App() {
+  return (
+    <Router basename="/personal-portfolio">
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/word-vault-privacy" element={<WordVaultPrivacy />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

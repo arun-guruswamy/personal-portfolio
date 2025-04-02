@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 export default function ProjectPage() {
@@ -8,7 +9,7 @@ export default function ProjectPage() {
     { imgSrc: require('../images/vga.jpg'), linkUrl: '/page2', imgTitle: "Morse-Code VGA Game", imgDescr: "FPGA designed game that tests Morse Code inputs of characters displayed on the VGA"},
     { imgSrc: require('../images/solar_sim.png'), linkUrl: '/page3', imgTitle: "2D Solar System simlution",  imgDescr: "Simulation of Solar System built using Pygame and fundamental Newtonian equations"},
     { imgSrc: require('../images/social_workout.png'), linkUrl: '/page4', imgTitle: "Social Media for Workouts", imgDescr: "Android app built to serve as a hub for sharing workouts and interacting with the fitness community."},
-    { imgSrc: require('../images/tse.png'), linkUrl: '/page5', imgTitle: "Tiny Search Engine", imgDescr: "Search engine written in C that mimics the design of Google's inital search engine"},
+    { imgSrc: require('../images/tse.png'), linkUrl: '/word-vault-privacy', imgTitle: "Word Vault", imgDescr: "Store words or phrases you like and use AI to learn them better"},
     { imgSrc: require('../images/trader.png'), linkUrl: '/page6', imgTitle: "Trading Simulator", imgDescr: "Python Stock trading simulator built using Flask and data from the IEX API"}
   ]; 
 
@@ -26,13 +27,15 @@ export default function ProjectPage() {
       {rows.map((row, rowIndex) => (
         <div key={rowIndex} className="image-row">
           {row.map((image, index) => (
-            <div className="image-container">
-              <img src={image.imgSrc} alt={`Link to ${image.linkUrl}`} />
-              <div className="image-text">
-                <div className="image-title">{image.imgTitle}</div>
-                <div className="image-subtitle">{image.imgDescr}</div>
+            <Link to={image.linkUrl} key={index} style={{ textDecoration: 'none', color: 'inherit' }}>
+              <div className="image-container">
+                <img src={image.imgSrc} alt={`Link to ${image.linkUrl}`} />
+                <div className="image-text">
+                  <div className="image-title">{image.imgTitle}</div>
+                  <div className="image-subtitle">{image.imgDescr}</div>
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       ))}
@@ -74,4 +77,3 @@ export default function ProjectPage() {
 // Tic Tac Toe game
 // Social Media for workouts
 // Multiplayer maze game
-
